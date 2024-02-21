@@ -1,0 +1,32 @@
+.logo-img {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto; /* Mantener la proporción original */
+  margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.titulo-container {
+  text-align: center;
+  margin-top: 100px;
+  animation: slideIn 2s ease;
+}
+
+.titulo-texto {
+  font-size: 3rem;
+  color: #333;
+}
+
+.subtitulo-texto {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
